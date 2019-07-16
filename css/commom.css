@@ -1,0 +1,161 @@
+ul,li{
+  list-style: none ;
+}
+
+/* 百度地图左下标隐藏 */
+.anchorBL{
+    display: none;
+  }
+  .BMap_bubble_content{
+    height:100%!important;
+  }
+  
+  .infoWindow{
+    position: relative;
+    height:100%;
+  }
+  .infoWindow form .form-control1{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 3px;;
+    padding: 3px;   
+   
+    
+  }
+  .infoWindow form .form-control2{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 3px;
+  
+    
+  }
+  .infoWindow form .checktype{
+    
+    margin-left: 390px;
+     
+     
+  }
+  .infoWindow form .checktime{
+    margin-left: 5px;
+    
+     
+  }
+  .infoWindow .echart{
+    position: absolute;
+    left:0;
+    right:0;
+    top:60px;
+    width: 640px;
+    bottom:10px;
+  }
+  
+  .form-group{
+    width: 640px;
+    height: 40px;
+    
+    position: relative;
+  }
+  .infoWindow_header{
+    font-size:18px;
+    text-align:center;
+    width: 640px;
+   
+  }
+  .read{
+    height: 25px;
+    margin-bottom: 10px; 
+    overflow: hidden;
+  }
+  
+ 
+  .closeTapHistory{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: normal; 
+    background-color: #5AC64F;
+    cursor: pointer;
+  }
+  
+  .tapNow {
+    width: 640px;
+    height: 288px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .nowSix>li {
+    width: 170px;
+    height: 90px;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+  }
+  
+  .nowSix li:nth-child(1),
+  .nowSix li:nth-child(4) {
+    margin-left: 42px;
+  }
+  
+  .nowSix>li>h3{
+    font-size: 36px;
+    height: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: center;
+  }
+  
+  .nowSix>li>h4 {
+    font-size: 16px;
+    height: 40px;
+    font-weight: normal;
+    line-height: 40px;
+    text-align: center;
+    color: #666666;
+  }
+  .nowTime{
+    position: absolute;
+    bottom: 20px;
+    left: 42px;
+    font-size: 18px;
+    color: #999999;
+  }
+  .readHistory,
+  .readMore{
+    width: 100px;
+    height: 38px;
+    color: white;
+    font-size: 12px;
+    line-height: 38px;
+    text-align: center;
+    background-color: #49c06c;
+    position: absolute;
+    bottom: 10px;
+    right: 42px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .readHistory{
+    background-color: #5392ec;
+   right: 160px;
+  }
+  
+  
+  
+  .show{
+    display: block;
+  }
+  .noshow{
+    display: none;
+  }
